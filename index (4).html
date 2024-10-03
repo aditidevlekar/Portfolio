@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Vinit</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+             <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <img src="Unknown_person.jpg" alt="Professional Photo" class="profile-photo">
+            <h1>Hello, I'm Vinit Ghodekar.</h1>
+            <p>Passionate web developer with expertise in creating dynamic and responsive web applications.</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p><strong>Background:</strong> [Your background information]</p>
+            <p><strong>Education:</strong> I am a BSC Computer Science Graduate and currently pursuing the MSC in Computer Science as a first year.</p>
+            <p><strong>Professional Experience:</strong> I am a fresher</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="projects-content">
+            <div class="project-card">
+                <img src="landing page.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Basic Landing Page</h3>
+                    <p>It is a basic Landing page which contain some pages with hover effects and fully Responsive for Mobiles and tabs also.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="stopwatch.jpeg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Stopwatch</h3>
+                    <p>It is a stopwatch Web-Application which contains start,pause,reset and lap buttons with the help of this user can takes a track of it.</p>
+                </div>
+            </div>
+               <div class="project-card">
+                <img src="ox.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Tic-Tac-Teo Game</h3>
+                    <p>It is a Tic-Tac-Toe web-game. In this game user can play with another player or with AI also.</p>
+                </div>
+            </div>
+               <div class="project-card">
+                <img src="portfolio.jpeg" alt="Project 4">
+                <div class="project-info">
+                    <h3>My Portfolio</h3>
+                    <p>It is a my Portfolio. It contains all my information like About me, my Projects, contact, etc.,</p>
+                </div>
+            </div>
+               <div class="project-card">
+                <img src="weather.png" alt="Project 5">
+                <div class="project-info">
+                    <h3>Weather Application</h3>
+                    <p>It is a stopwatch Web-Application which contains start,pause,reset and lap buttons with the help of this user can takes a track of it.</p>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <form action="#" method="post" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vinit. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
